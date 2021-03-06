@@ -1,46 +1,51 @@
 body {
-    font-family:'Courier New', Courier, monospace
-    font-size: 16px;
-    line-height: .75;
+    font-family: monospace;
+    font-size: 18px;
+    line-height: 1;
+    background-color: #ebdada;
   }
   
-  textarea{
-    background: transparent;
-    border: none;
+  textarea {
+    background: #dfdfde;
+    border: 1px solid #a2798f;
     resize: none;
     color: #000000;
-    border-left: 1px solid black;
-    padding: 10px;
+    padding: 15px;
+    border-left: 1px solid #a2798f;
   }
   
   .jumbotron {
     text-align: left;
     background-color: #dfdfde;
     color: 	#a2798f;
-    border-radius: 10px;
-    border: 5px solid #a2798f;
+    border-radius: 0px;
+    border: 1px solid #a2798f;
     
   }
   
   .description{
     white-space: pre-wrap;
+    font-size: 18px;
+    
   }
   
   .time-block{
     text-align: center;
-    border-radius: 50px;
-  }
-  
+    border: .5px solid #a2798f;
+    color: #a2798f;
+    background-color: #dfdfde;
+
+
   .row {
     white-space: pre-wrap;
-    height: 80px;
-    border: 5px solid #d7c6cf;
+    height: 100px;
+    border: 500px solid #dfdfde;
   }
   
   .hour {
     background-color: #dfdfde;
-    color: #000000;
-    border-top: 1px dashed #000000;
+    color: #8caba8;
+    border-top: 100px dashed #000000;
   }
   
   .past {
@@ -60,8 +65,6 @@ body {
   
   .saveBtn {
     border-left: 1px solid black;
-    border-top-right-radius: 15px;
-    border-bottom-right-radius: 15px;
     background-color: #06AED5;
     color: white;
   }
